@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this repository or its evaluation protocol in academic work, please cite it as below."
+title: "TIE–Dialog Region-Based Pilot Evaluation"
+type: software
+authors:
+  - family-names: "Céspedes Jiménez"
+    given-names: "Adolfo J."
+repository-code: "https://github.com/AdolfoJCJ/tie-dialog-region-pilot"
+url: "https://github.com/AdolfoJCJ/tie-dialog-region-pilot"
+license: "Apache-2.0"
+keywords:
+  - conversational coherence
+  - rupture
+  - repair
+  - temporal event detection
+  - region-based evaluation
+  - IoU
+  - overlap-F1
+  - permutation baseline
+  - lag analysis
+  - minimal coherence signal
+  - TIE–Dialog
+  - dialogue analysis
+  - computational pragmatics
+abstract: >
+  Replication package for a region-based pilot evaluation of rupture and repair
+  overlap between human annotations and coherence dynamics produced by TIE–Dialog.
+  The protocol converts human point annotations into fixed windows [t−2, t+2],
+  defines a ≥3/5 consensus reference, extracts model event regions directly from
+  the coherence signal C(t) using pre-specified dialogue-relative criteria
+  (repair = C(t) ≥ Q₀.₈₅(C); rupture = dC(t) ≤ Q₀.₁₅(dC)), and evaluates overlap
+  using IoU and overlap-based F1 with a random-region permutation baseline and
+  lag scan for precursor detection.
+preferred-citation:
+  type: article
+  title: "Quantifying Conversational Coherence: A Region-Based Pilot Evaluation of Rupture and Repair from a Minimal Coherence Signal (TIE–Dialog)"
+  authors:
+    - family-names: "Céspedes Jiménez"
+      given-names: "Adolfo J."
+  year: 2026
+  status: "preprint"
+  repository: "Zenodo"
