@@ -1,4 +1,4 @@
-# TIE–Dialog Region-Based Pilot Evaluation (Option A)
+# TIE–Dialog Region-Based Pilot Evaluation 
 
 This repository contains the full replication package for a region-based pilot evaluation of rupture and repair detection using TIE–Dialog. The study tests whether event regions derived directly from a coherence signal C(t) overlap with human-annotated rupture and repair regions beyond chance, using temporal overlap metrics and a random-region permutation baseline.
 
