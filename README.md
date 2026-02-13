@@ -90,7 +90,7 @@ reports best lag k* maximizing IoU
 
 Open the notebook in Colab:
 
-Upload notebook/region_evaluation_optionA.ipynb to Colab, or open it directly from GitHub.
+Upload notebook/region_evaluation.ipynb to Colab, or open it directly from GitHub.
 
 Upload the two input files when prompted:
 
