@@ -8,7 +8,7 @@ What this repo contains
 
 Notebook (main replication artifact)
 
-notebook/region_evaluation_optionA.ipynb
+notebook/region_evaluation.ipynb
 
 Input data
 
@@ -30,14 +30,11 @@ results/per_dialogue_baseline_optionA.csv
 
 results/region_metrics_report_optionA.pdf
 
-Figures
 
-figures/pipeline.png
-
-Method summary (Option A)
+Method summary 
 Human annotation processing
 
-Five annotators labeled rupture (valley) and repair (peak) points.
+Five annotators labeled rupture (valley) and repair (peak-like) points.
 
 Each point at turn t is converted into a fixed window:
 
@@ -89,7 +86,7 @@ k ∈ [−5, +5]
 
 reports best lag k* maximizing IoU
 
-How to run (Google Colab)
+# How to run (Google Colab)
 
 Open the notebook in Colab:
 
@@ -119,15 +116,15 @@ Best-lag results (k* and overlap at k*)
 
 A PDF report summarizing the full evaluation
 
-Citation
+# Citation
 
 If you use this repository or its evaluation protocol in academic work, please cite the associated preprint and/or the Zenodo release (DOI will be provided in the repository release).
 
-License
+# License
 
 This project is licensed under the Apache License 2.0. See the LICENSE file for details.
 
-Contact
+# Contact
 
-Adolfo J. Céspedes Jiménez
+Adolfo J. Céspedes Jiménez - a.j.cespedes.jimenez(AT)student.rug.nl
 (University of Groningen)
